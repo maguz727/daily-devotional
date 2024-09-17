@@ -60,3 +60,33 @@ nav {
     display: none;
     font-size: 15px;
 }
+
+@media (max-width: 650px) {
+    nav {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .nav-link {
+        margin-bottom: 10px;
+        
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .nav-button {
+        display: inline-block;
+        margin-bottom: 10px;
+        background-color: var(--bg-nav-button);
+        color: var(--text-color-black);
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 651px) {
+    .nav-link {
+        width: 100px;
+    }
+}
