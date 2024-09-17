@@ -22,11 +22,29 @@
             <a href="#" class="nav-link hidden">Contacto</a>
         </nav>
         <main class="main">
+            <!-- Header -->
             <header class="header">
                 <h1 class="header__title">Cheques del Banco de la Fe</h1>
                 <p class="header__description">Promesas y palabras de aliento para cada día del año</p>
                 <em class="header__reference">Basado en el libro con el mismo nombre de C.H.SPURGEON</em>
             </header>
+            <!-- Devotional Day -->
+             <section class="devotional-section">
+                <h2 class="devotional-section__title">Devocional del día</h2>
+                <article class="devotional-daily">
+                    <div class="devotional-daily__header">
+                        <p class="devotional-daily__date" id="devotionalDate">día del devocional</p>
+                        <h3 class="devotional-daily__title" id="devotionalTitle">Título del devocional</h3>
+                    </div>
+                    <div class="devotional-daily__body">
+                        <div class="devotiona-daily__verse-group">
+                            <p class="devotional-daily__verse-description" id="verseDescription">Descripción del versículo</p>
+                            <span class="devotional-daily__verse" id="verseDevotional">Versículo</span>
+                        </div>
+                        <div class="devotional-daily__text" id="textDevotional"></div>
+                    </div>
+                </article>
+             </section>
         </main>
         <script src="./js/script.js"></script>
     </body>

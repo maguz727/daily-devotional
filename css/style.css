@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-html {
-    height: 100%;
-}
 
 /* Variables */
 :root {
@@ -18,6 +15,7 @@ html {
     --text-color-white: #e8e8e8;
     --text-color-black: #222831;
     --bg-nav: #00334e;
+    --bg-nav-opacity: rgb(0, 51, 78, 0.8);
     --bg-nav-button: #76abae;
 }
 
@@ -26,12 +24,11 @@ body {
     background-color: var(--bg-color-black);
     background-image: url("../src/images/background.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
     background-size: cover;
 }
 
 /* Navigation bar */
-
 nav {
     background-color: var(--bg-color-black-opacity);
     padding: 20px;
@@ -74,7 +71,6 @@ nav {
 }
 
 /* Header */
-
 .header {
     margin: 20px;
 }
@@ -99,9 +95,68 @@ nav {
     color: var(--text-color-white);
 }
 
+/* Devotional Section */
+.devotional-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.devotional-section__title {
+    font-size: 30px;
+    text-decoration: underline;
+    color: var(--text-color-white);
+    margin-bottom: 50px;
+}
+
+.devotional-daily {
+    max-width: 600px;
+    padding: 30px;
+    background-color: var(--bg-nav-opacity);
+    color: var(--text-color-white);
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 13px -7px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 10px 10px 13px -7px rgba(0, 0, 0, 0.21);
+    box-shadow: 10px 10px 13px -7px rgba(0, 0, 0, 0.21);
+}
+
+.devotional-daily__header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.devotional-daily__title {
+    font-size: 25px;
+}
+
+.devotiona-daily__verse-group {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.devotional-daily__verse-description {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.devotional-daily__verse {
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.devotional-daily__text p {
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 10px;
+}
+
 
 /* Media queries */
 @media (max-width: 650px) {
+
     nav {
         flex-direction: column;
         align-content: center;
