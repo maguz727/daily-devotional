@@ -1,0 +1,66 @@
+/* PAGE DEVOTIONALS */
+
+/* Variables */
+:root {
+    --bg-color-white: #e8e8e8;
+    --bg-color-black: #222831;
+    --bg-color-black-opacity: rgba(0, 51, 78, 0.3);
+    --bg-color-dark: #31363f;
+    --bg-color-grey: #eeeeee;
+    --text-color-teal: #76abae;
+    --text-color-white: #e8e8e8;
+    --text-color-black: #222831;
+    --bg-nav: #00334e;
+    --bg-nav-opacity: rgb(0, 51, 78, 0.8);
+    --bg-nav-button: #76abae;
+}
+
+body {
+    /* background: linear-gradient(to bottom, #005f66, #ff9757, #e14700); */
+    /* background: var(--bg-color-white); */
+}
+
+.devotionals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 40px;
+    color: var(--text-color-white);
+}
+
+.devotionals__card {
+    background-color: var(--bg-nav-opacity);
+    -webkit-box-shadow: 10px 10px 13px -7px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 10px 10px 13px -7px rgba(0, 0, 0, 0.21);
+    box-shadow: 10px 10px 13px -7px rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+    border-top: 10px solid var(--bg-nav-button);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.devotionals__card__header {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px var(--bg-nav-button);
+}
+
+.devotionals__card__header__title {
+    font-size: 25px;
+}
+
+.devotionals__card__header__verse-description {
+    font-style: italic;
+}
+
+.devotionals__card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.devotionals__card__body p {
+    text-align: justify;
+}
