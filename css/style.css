@@ -181,16 +181,22 @@ nav {
 
 .info {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     padding: 20px;
     color: var(--text-color-white);
+    text-align: center;
+    gap: 20px;
 }
 
 .info__contact {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+}
+
+.info__contact_title-page {
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .info__contact__email .contact__email {
@@ -198,33 +204,8 @@ nav {
     color: var(--text-color-white);
 }
 
-.info__book {
-    margin: 20px;
-}
-
-.info__book_title-original {
-    margin-bottom: 20px;
-}
-
-.title-original {
-    font-style: italic;
-}
-
-.info__book__title-translated {
-    margin-bottom: 20px;
-}
-
-.title-translated {
-    font-style: italic;
-}
-
-.info__editorial {
-    margin: 20px;
-}
-
-.info__editorial__link {
-    text-decoration: none;
-    color: var(--text-color-teal);
+.info__more p {
+    margin-bottom: 10px;
 }
 
 
