@@ -15,11 +15,6 @@
     --bg-nav-button: #76abae;
 }
 
-body {
-    /* background: linear-gradient(to bottom, #005f66, #ff9757, #e14700); */
-    /* background: var(--bg-color-white); */
-}
-
 .devotionals {
     display: flex;
     flex-direction: column;
