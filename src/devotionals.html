@@ -53,7 +53,7 @@
                 <h1 class="header__title">Devocionales Diarios</h1>
                 <p class="header__description">En esta sección, te ofrecemos una colección de devocionales organizados por el mes actual, lo que te permite leer y reflexionar en cualquier momento que desees. Cada devocional ha sido creado con el propósito de proporcionarte un mensaje inspirador de paz, esperanza y fortaleza, acompañándote en tu camino diario con Dios.</p>
             </header>
-            <!-- Devocionales -->
+            <!-- Sección de Devocionales -->
             <section class="devotionals" id="devotionalSection"> 
             </section>
         </main>
@@ -71,6 +71,20 @@
                 </div>
             </div>
         </footer>
+        <!-- Template para los devocionales -->
+        <template id="devotionalTemplate">
+            <article class="devotionals__card">
+                <div class="devotionals__card__header">
+                    <p class="devotionals__card__header__day" id="devotionalDay"></p>
+                    <h2 class="devotionals__card__header__title" id="devotionalTitle"></h2>
+                    <p class="devotionals__card__header__verse-description" id="textVerse"></p>
+                    <span class="devotionals__card__header__verse" id="devotionalVerse"></span>
+                </div>
+                <div class="devotionals__card__body" id="devotionalText">
+                    
+                </div>
+            </article>
+        </template>
         <script src="../js/script.js"></script>
         <script src="../js/devotionals.js"></script>
     </body>
