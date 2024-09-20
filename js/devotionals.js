@@ -16,7 +16,7 @@ function renderDevotionals(devotionals) {
         clone.getElementById("devotionalTitle").textContent = devotional.title.toUpperCase()
         clone.getElementById("textVerse").textContent = devotional.textVerse
         clone.getElementById("devotionalVerse").textContent = `${devotional.book} ${devotional.chapter}:${devotional.verse}`
-        
+        clone.getElementById("audioDevotional").src = devotional.audio
         // Obtener el contenedor donde van los párrafos del texto del devocional
         const devotionalText = clone.getElementById("devotionalText");
 

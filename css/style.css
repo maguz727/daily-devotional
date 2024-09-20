@@ -171,6 +171,12 @@ nav {
     margin-bottom: 10px;
 }
 
+.devotional-daily__audio {
+    display: block;
+    margin: 20px auto;
+    height: 30px;
+}
+
 /* Footer */
 .footer {
     display: flex;

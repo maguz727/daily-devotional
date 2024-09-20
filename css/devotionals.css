@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 900px;
+    max-width: 800px;
     margin: 40px;
     color: var(--text-color-white);
 }
@@ -54,6 +54,13 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.devotionals-card__audio {
+    display: block;
+    margin: 20px auto;
+    height: 30px;
+    width: 100%;
 }
 
 .devotionals__card__body p {
