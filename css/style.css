@@ -26,8 +26,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
-    background: linear-gradient(to bottom, #005f66, #ff9757, #e14700);
-    background-image: url("../src/images/background.webp");
+    background: linear-gradient(to bottom, #005f66, #ff9757);
+    /* background-image: url("../src/images/background.webp"); */
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -248,7 +248,7 @@ nav {
 @media (max-width: 650px) {
 
     body {
-        background: linear-gradient(to bottom, #005f66, #ff9757, #e14700);
+        background: linear-gradient(to bottom, #005f66, #ff9757);
     }
 
     nav {
