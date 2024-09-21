@@ -248,9 +248,7 @@ nav {
 @media (max-width: 650px) {
 
     body {
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
+        background: linear-gradient(to bottom, #005f66, #ff9757, #e14700);
     }
 
     nav {
